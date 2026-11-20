@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palawan Island Tour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h2>PALAWAN TOURS</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tours">Tours</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="hero">
+        <div>
+            <h1>Discover Beautiful Palawan</h1>
+            <p>Explore the beautiful islands and beaches of the Philippines.</p>
+            <a href="#tours" class="btn">Explore Tours</a>
+        </div>
+    </section>
+
+    <!-- Tours Page -->
+    <section id="tours">
+        <h1>Our Island Tours</h1>
+
+        <div class="tour-container">
+
+            <div class="tour-card">
+                <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600"
+                     alt="Beautiful tropical beach">
+                <h2>El Nido</h2>
+                <p>Discover beautiful beaches and crystal-clear waters.</p>
+                <button onclick="showDetails('El Nido')">
+                    View Details
+                </button>
+            </div>
+
+            <div class="tour-card">
+                <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600"
+                     alt="Beautiful ocean">
+                <h2>Coron</h2>
+                <p>Experience amazing lagoons and island adventures.</p>
+                <button onclick="showDetails('Coron')">
+                    View Details
+                </button>
+            </div>
+
+            <div class="tour-card">
+                <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=600"
+                     alt="Tropical nature">
+                <h2>Puerto Princesa</h2>
+                <p>Visit beautiful natural attractions and rivers.</p>
+                <button onclick="showDetails('Puerto Princesa')">
+                    View Details
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about">
+        <h1>About Palawan Tours</h1>
+        <p>
+            Palawan Tours is a sample tourism website created to
+            introduce the beautiful destinations of Palawan.
+            Our goal is to help visitors discover amazing places
+            and enjoy unforgettable island adventures.
+        </p>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Palawan Island Tour | Student Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
